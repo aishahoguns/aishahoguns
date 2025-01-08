@@ -7,7 +7,7 @@ Skills
 > Power BI
 > SQL
 > Machine Learning
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/aishahoguns/)
+- 📫 How to reach me: aishahoguns@gmail.com
 
 Here are some of my projects you might find interesting
 Customer Segmentation Analysis

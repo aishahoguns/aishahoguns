@@ -1,13 +1,13 @@
 # Hello, I'm Aisha Ogunsola 👋
 
-I'm an aspiring Data Analyst with a passion for uncovering insights from data and creating impactful machine learning models. I specialize in Python, SQL, Power BI and Excel. Currently, I'm exploring machine learning and predictive modelling.
+Hello, I'm Aisha Ogunsola 👋
+I'm an aspiring Data Analyst with a strong foundation in data analysis, visualization, and machine learning. My passion lies in uncovering actionable insights from complex datasets and transforming them into impactful business strategies.
 
-Skills
-> Python
-> Power BI
-> SQL
-> Machine Learning
+With hands-on experience in Python, Power BI, SQL, and machine learning, I've worked on projects that include customer segmentation, predictive modeling, and crafting interactive dashboards. Recently, I’ve gained practical experience through simulations with PwC, British Airways, and BCG, where I developed analytical solutions for real-world business challenges, such as gender balance KPIs and customer churn predictions.
+
+Currently, I'm advancing my skills in predictive modeling and health data analysis as part of my academic journey. I enjoy solving problems, creating meaningful visualizations, and delivering insights that empower data-driven decisions.
 - 📫 How to reach me: aishahoguns@gmail.com
+- Here's my [CV](https://github.com/aishahoguns/Portfolio_Projects/blob/main/Aisha%20Ogunsola%20RESUME.pdf)
 
 ## Portfolio Projects
 Here are some of my projects you might find interesting

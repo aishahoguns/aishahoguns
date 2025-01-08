@@ -1,13 +1,23 @@
 # Hello, I'm Aisha Ogunsola 👋
 
-I'm an aspiring Data Scientist/Analyst with a passion for uncovering insights from data and creating impactful machine learning models. I specialize in Python, SQL, machine learning, and data visualization. Currently, I'm exploring advanced techniques in predictive modeling and deep learning.
+I'm an aspiring Data Analyst with a passion for uncovering insights from data and creating impactful machine learning models. I specialize in Python, SQL, Power BI and Excel. Currently, I'm exploring machine learning and predictive modelling.
 
-- 🌱 I’m currently learning: TensorFlow and advanced NLP techniques.
-- 👯 I’m looking to collaborate on: Open-source data science projects.
-- 💬 Ask me about: Data Science, Python, Machine Learning, Power BI.
+Skills
+> Python
+> Power BI
+> SQL
+> Machine Learning
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/aishahoguns/)
 
-Check out my projects and feel free to connect!
+Here are some of my projects you might find interesting
+Customer Segmentation Analysis
 
--->
+--> Analyzing Customer Purchasing Behavior in the Chips Category
+--> Providing insights to a Revenue Team in the Hospitality Domain
+--> Customer Insights Dashboard for Telecom Marketing
+
+
+
+
+
 

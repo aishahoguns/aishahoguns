@@ -11,7 +11,7 @@ Currently, I'm advancing my skills in predictive modeling and health data analys
 
 ## Portfolio Projects
 Here are some of my projects you might find interesting
-Customer Segmentation Analysis
+
 
 ### Analyzing Customer Purchasing Behavior in the Chips Category
 Code: [Customer_Purchasing_Behavior_Analysis.ipynb](https://github.com/aishahoguns/Portfolio_Projects/blob/main/Customer_purchasing_behaviour/Customer%20Segmentation%20Analysis.ipynb)

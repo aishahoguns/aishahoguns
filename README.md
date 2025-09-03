@@ -1,81 +1,82 @@
-# Hello, I'm Aisha Ogunsola 👋
-
 Hello, I'm Aisha Ogunsola 👋
-I'm an aspiring Data Analyst with a strong foundation in data analysis, visualization, and machine learning. My passion lies in uncovering actionable insights from complex datasets and transforming them into impactful business strategies.
 
-With hands-on experience in Python, Power BI, SQL, and machine learning, I've worked on projects that include customer segmentation, predictive modeling, and crafting interactive dashboards. Recently, I’ve gained practical experience through simulations with PwC, British Airways, and BCG, where I developed analytical solutions for real-world business challenges, such as gender balance KPIs and customer churn predictions.
+I'm a Machine Learning Engineer and Data Scientist with expertise in data analysis, predictive modeling, and AI-driven solutions. I specialize in uncovering actionable insights from complex datasets and translating them into impactful, data-driven strategies.
 
-Currently, I'm advancing my skills in predictive modeling and health data analysis as part of my academic journey. I enjoy solving problems, creating meaningful visualizations, and delivering insights that empower data-driven decisions.
-- 📫 How to reach me: aishahoguns@gmail.com
-- Here's my [CV](https://github.com/aishahoguns/Portfolio_Projects/blob/main/Aisha%20Ogunsola%20RESUME.pdf)
+With hands-on experience in Python, PyTorch, SQL, and machine learning, I’ve developed projects ranging from customer segmentation and predictive modeling to automated data mapping and deep learning pipelines. Recently, I gained practical experience through simulations with PwC, British Airways, and BCG, designing analytical solutions for real-world business challenges, including gender balance KPIs and customer churn predictions.
 
-## Portfolio Projects
-Here are some of my projects you might find interesting
+Currently, I’m advancing my skills in predictive modeling, NLP, and healthcare data analytics, focusing on building scalable AI solutions. I enjoy solving complex problems, optimizing workflows, and delivering insights that enable smarter, data-driven decisions.
 
+📫 How to reach me: aishahoguns@gmail.com
 
-### Analyzing Customer Purchasing Behavior in the Chips Category
-Code: [Customer_Purchasing_Behavior_Analysis.ipynb](https://github.com/aishahoguns/Portfolio_Projects/blob/main/Customer_purchasing_behaviour/Customer%20Segmentation%20Analysis.ipynb)
+📄 View my CV
 
-Goal: To identify key drivers of chip sales, segment customers based on purchasing behavior, and provide actionable recommendations for optimizing sales and engagement.
+🌟 Featured Project
+Automated Mapping of Clinical Equipment Categories
 
-Description: This project analyzed transactional and customer data from a supermarket's chip category. It involved loading and cleaning the data, exploring purchasing patterns, segmenting customers by demographics and spending habits, and conducting statistical tests to uncover significant associations between customer types and purchasing behavior. Insights were visualized using various charts and graphs to aid decision-making.
+Code/Notebook: Automated_Equipment_Mapping.ipynb
 
-Skills: data cleaning, exploratory data analysis, customer segmentation, statistical analysis (t-tests, chi-square tests), data visualization.
+Goal: Develop an AI-driven system that maps unapproved clinical equipment names to standardized approved categories, improving data quality and operational efficiency in healthcare.
 
-Technology: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, SciPy.
+Description:
+This project addressed the challenge of messy, unstructured clinical equipment data. Using synthetic dataset generation and NLP techniques, I created a model that automatically maps diverse equipment names (e.g., “INFUSION PUMP SYRINGE AMBULATORY”) to approved categories (e.g., “INFUSION PUMP,SYRINGE,AMBULATORY”). This automated solution significantly reduces manual work and ensures consistent, reliable data for analytics.
 
-Results:
-
-Identified older families and young singles/couples in the "Mainstream" segment as the highest contributors to sales.
-Found that "Mainstream" young singles/couples are 21% more likely to purchase Tyrrells chips compared to other groups.
-Recommended increasing visibility of premium brands near discretionary spaces to leverage impulse buying.
-
-
-### Providing insights to a Revenue Team in the Hospitality Domain
-Code: [AtliQ_Grands_Analysis_and_Dashboard](https://github.com/aishahoguns/Portfolio_Projects/blob/main/Hospitality%20Domain%20Insights.pbix)
-
-Goal: To analyze historical data, create a dashboard with key performance metrics, and provide actionable insights to help AtliQ Grands regain market share and revenue in the luxury/business hotels category.
-
-Description: This project addressed the challenges faced by AtliQ Grands, a chain of five-star hotels in India, by leveraging data analytics. The tasks involved creating metrics as per stakeholder requirements, designing a mock-up dashboard, and deriving additional insights from the data. The analysis provided clarity on revenue trends, occupancy rates, customer segmentation, and areas for potential growth.
-
-Skills: data cleaning, KPI development, dashboard creation, exploratory data analysis, business insights generation.
-
-Technology: Power BI, DAX, Power Query, Data Modelling
+Skills: Data cleaning, synthetic dataset generation, NLP, text preprocessing, classification, model evaluation.
+Technology: Python, Pandas, NumPy, Scikit-learn, PyTorch, Jupyter Notebook
 
 Results:
 
-Developed a dashboard showcasing key metrics like occupancy rate, revenue per available room (RevPAR), and customer demographics.
-Highlighted a significant decline in bookings during off-peak seasons and recommended targeted marketing campaigns for business travelers.
-Identified underperforming properties and proposed strategies to optimize their performance, including loyalty programs and package deals.
-Uncovered additional insights, such as high customer retention in metropolitan areas, suggesting potential for upselling premium services.
+Generated 500+ synthetic examples to train the model.
 
+Achieved high accuracy in automated mapping.
 
- ### Customer Insights Dashboard for Telecom Marketing
-Dashboard/PDF: [Telecom_Marketing_Dashboard.pbix](https://github.com/aishahoguns/Portfolio_Projects/tree/main/Call_center_analytics)
+Streamlined equipment categorization, improving data reliability and reducing manual effort.
 
-Goal: To design an interactive dashboard in Power BI that visualizes key performance indicators (KPIs) and metrics to improve customer satisfaction, operational efficiency, and agent performance for a telecom company.
+📊 Portfolio Projects
+1. Red Blood Cell Classification
 
-Description: This project focused on analyzing telecom customer service data to identify trends and performance metrics. An interactive dashboard was created to track KPIs such as overall customer satisfaction, call abandonment rates, call handling times, and agent performance. The visualizations provide actionable insights to enhance customer experience and streamline service operations.
+Code/Notebook: RBC_Classification.ipynb
 
-Skills: KPI development, dashboard creation, data visualization, performance analysis, operational insights generation.
+Goal: Build a hybrid deep learning and machine learning pipeline to classify individual red blood cells (RBCs) as circular, elongated, or other shapes from microscopic images.
 
-Technology: Power BI, DAX, Excel, Python (for preprocessing).
+Description:
+This project implements an end-to-end pipeline combining semantic segmentation, deep learning feature extraction, and traditional ML classification:
+
+Data Loading & Preprocessing: Images loaded from Google Drive with augmentation and normalization applied.
+
+Segmentation: U-Net++ used to isolate cells; explored multiple encoders (ResNet34, ResNet50, EfficientNet-b3, MobileNetV2) and segmentation thresholds (0.2, 0.3, 0.5, 0.7).
+
+Feature Extraction: Embeddings extracted from pretrained CNNs: ResNet-50, VGG-16, DenseNet121, Inception-v3, MobileNetV2. Classification heads removed.
+
+Machine Learning Classification: Features fed into SVM, Logistic Regression, Random Forest, Naive Bayes, and Decision Tree classifiers.
+
+Performance Evaluation: Accuracy, classification reports, and confusion matrices used to compare performance; bar plots visualized best combinations.
+
+Key Findings:
+
+DenseNet121 + Logistic Regression/SVM achieved the highest accuracy.
+
+Naive Bayes and Decision Tree performed consistently worse.
+
+Pipeline demonstrates the power of combining semantic segmentation + CNN feature extraction + ML classifiers for RBC classification.
+
+Technology & Tools: Python, PyTorch, OpenCV, Scikit-learn, NumPy, Pandas, Jupyter Notebook
+
+2. Analyzing Customer Purchasing Behavior in the Chips Category
+
+Code: Customer_Purchasing_Behavior_Analysis.ipynb
+
+Goal: Identify key drivers of chip sales, segment customers by purchasing behavior, and provide actionable recommendations to optimize sales and engagement.
+
+Description:
+Analyzed transactional and customer data from a supermarket’s chip category. Tasks included data cleaning, EDA, customer segmentation, statistical testing, and visualization to uncover patterns in purchasing behavior.
+
+Skills: Data cleaning, EDA, customer segmentation, statistical analysis (t-tests, chi-square), visualization.
+Technology: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, SciPy
 
 Results:
 
-Designed a dashboard with key KPIs, including:
-Customer Satisfaction: Overall satisfaction score across customer interactions.
-Call Metrics: Answered vs. abandoned calls, calls by time of day, and average speed of answer.
-Agent Performance: Quadrant analysis comparing average handle time to the number of calls answered.
-Identified peak call times and recommended optimizing staff schedules to reduce wait times.
-Highlighted top-performing agents and suggested training programs for underperformers to improve overall service quality.
-Proposed actions to improve customer satisfaction by addressing common pain points revealed in the data.
+Identified older families and young singles/couples as top contributors to sales.
 
+“Mainstream” young singles/couples were 21% more likely to purchase Tyrrells chips.
 
-
-
-
-
-
-
-
+Recommended increasing visibility of premium brands near discretionary spaces to boost impulse buying.

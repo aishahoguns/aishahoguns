@@ -1,4 +1,4 @@
-Hello, I'm Aisha Ogunsola 👋
+## Hello, I'm Aisha Ogunsola 👋
 
 I'm a Machine Learning Engineer and Data Scientist with expertise in data analysis, predictive modeling, and AI-driven solutions. I specialize in uncovering actionable insights from complex datasets and translating them into impactful, data-driven strategies.
 
@@ -10,8 +10,8 @@ Currently, I’m advancing my skills in predictive modeling, NLP, and healthcare
 
 📄 View my CV
 
-🌟 Featured Project
-Automated Mapping of Clinical Equipment Categories
+### 🌟 Featured Project
+#### Automated Mapping of Clinical Equipment Categories
 
 Code/Notebook: Automated_Equipment_Mapping.ipynb
 
@@ -31,8 +31,8 @@ Achieved high accuracy in automated mapping.
 
 Streamlined equipment categorization, improving data reliability and reducing manual effort.
 
-📊 Portfolio Projects
-1. Red Blood Cell Classification
+📊### Portfolio Projects
+1. #### Red Blood Cell Classification
 
 Code/Notebook: RBC_Classification.ipynb
 
